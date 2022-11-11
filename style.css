@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("img/danforth-featured.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 60px;
+    padding: 12px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #D3D3D3;
+    background: rgba(240, 240, 240, 0.7);
+    transition: 0.5s;
+}
+
+.new-publications {
+    margin: auto;
+    padding-top: 50px;
+    text-align: left;
+    width: 80%;
+}
+
+.new-publications h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.gallery {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-col img {
+    width: 80%;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 0.2s;
+}
+
+.gallery-col img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.column {
+    float: center;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+    justify-content: center;
+    align-items: center;
+}
+
+.research {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.research h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.research p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.research img {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+.people {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.people h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.people p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.people li {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-position: inside;
+}
+
+.people-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.people-col {
+    flex-basis: 31%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.publications {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.publications h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.publications li {
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 1px;
+    text-align: left;
+    list-style-position: inside;
+}
