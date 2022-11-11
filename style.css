@@ -4,6 +4,10 @@
     font-family: 'PT Serif', serif;
 }
 
+em {
+    font-weight: bold;
+}
+
 .header {
     min-height: 100vh;
     width: 100%;
