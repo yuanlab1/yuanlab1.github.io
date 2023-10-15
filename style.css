@@ -226,28 +226,27 @@ nav {
     box-sizing: border-box;
 }
 
-.publications {
-    width: 80%;
-    margin: auto;
-    text-align: left;
-    padding-top: 100px;
+.publications-list {
+    list-style: none;
+    padding: 0;
 }
 
-.publications h1 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 600;
+.publications-list li {
+    margin: 0 0 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
 }
 
-.publications li {
-    color: black;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 1px;
-    text-align: left;
-    list-style-position: inside;
+.publications-list li p {
+    margin: 0;
+    font-size: 16px;
 }
+
+.publications-list li strong {
+    font-weight: bold;
+}
+
 .hiring {
     width: 80%;
     margin: auto;
