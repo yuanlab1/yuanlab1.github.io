@@ -148,8 +148,8 @@ nav {
 }
 
 .research {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin: 0;
     text-align: left;
     padding-top: 100px;
 }
