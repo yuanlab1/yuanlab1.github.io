@@ -267,7 +267,6 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    justify-content: flex-end;
     height: 100vh;
 }
 
@@ -276,6 +275,7 @@ nav {
     width: 800px;
     height: 200px;
     margin: 0 auto;
+    justify-content: flex-end;
 }
 
 .mySlides {
