@@ -274,6 +274,9 @@ nav {
     position: relative;
     width: 800px;
     height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .mySlides {
