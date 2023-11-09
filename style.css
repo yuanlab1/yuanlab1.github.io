@@ -1,9 +1,15 @@
+ /*style.css*/
+
+ /*<-------------------------------------------------- Start of Index Page CSS ---------------------------------------------------------------->*/
+ 
+ /*global fields defined*/
 * {
     margin: 0;
     padding: 0;
     font-family: 'PT Serif', serif;
 }
 
+/*header settings*/
 .header {
     min-height: 10vh;
     width: 100%;
@@ -18,6 +24,7 @@ body {
     background: none;
 }
 
+/*naviagation bar display*/
 nav {
     display: flex;
     padding: 2% 6%;
@@ -58,6 +65,7 @@ nav {
     width: 100%;
 }
 
+/*logo display*/
 .text-box {
     width: 90%;
     color: black;
@@ -72,6 +80,54 @@ nav {
     font-size: 60px;
     padding: 200px;
 }
+
+/*slideshow display settings*/
+.centered-slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/*<-------------------------------------------------- End of Index Page CSS ---------------------------------------------------------------->*/
 
 .hero-btn {
     display: inline-block;
@@ -183,11 +239,13 @@ nav {
     margin: auto;
 }
 
+/*<-------------------------------------------------- Start of People Page CSS ---------------------------------------------------------------->*/
+
 .people {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .people h1 {
@@ -217,7 +275,7 @@ nav {
 }
 
 .people-row {
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
 }
@@ -230,6 +288,37 @@ nav {
     padding: 20px 12px;
     box-sizing: border-box;
 }
+
+.people .prof-styled-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.people .prof-info {
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 24px; 
+    color: #333;  
+}
+
+.people .prof-subtitle {
+    font-size: 18px;
+    font-weight: 600; 
+    line-height: 24px; 
+    color: #333; 
+    padding: 10px 0; 
+}
+
+.people .styled-image {
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+}
+
+/*<-------------------------------------------------- Start of Publications Page CSS ---------------------------------------------------------------->*/
 
 .publications-list {
     list-style: none;
@@ -264,49 +353,4 @@ nav {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 9px;
-}
-
-.centered-slideshow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.slideshow-container {
-    position: relative;
-    width: 800px;
-    height: 200px;
-    margin: 0 auto;
-    margin-top: 150px;
-}
-
-.mySlides {
-    display: none;
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto; /* Center the images horizontally */
-    max-width: 100%;
-    max-height: 400px;
-}
-
-.prev, .next {
-    position: absolute;
-    top: 90%;
-    transform: translateY(-50%);
-    padding: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    color: black;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
 }
