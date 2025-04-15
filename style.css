@@ -1,17 +1,11 @@
- /*style.css*/
-
- /*<-------------------------------------------------- Start of Index Page CSS ---------------------------------------------------------------->*/
- 
- /*global fields defined*/
 * {
     margin: 0;
     padding: 0;
     font-family: 'PT Serif', serif;
 }
 
-/*header settings*/
 .header {
-    min-height: 10vh;
+    min-height: 100vh;
     width: 100%;
     /*background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("img/danforth-featured.jpg");*/
     background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), gray;
@@ -20,11 +14,6 @@
     position: relative;
 }
 
-body {
-    background: none;
-}
-
-/*naviagation bar display*/
 nav {
     display: flex;
     padding: 2% 6%;
@@ -35,7 +24,6 @@ nav {
 .nav-links {
     flex: 1;
     text-align: right;
-    z-index: 1000; 
 }
 
 .nav-links ul li {
@@ -65,12 +53,11 @@ nav {
     width: 100%;
 }
 
-/*logo display*/
 .text-box {
     width: 90%;
-    color: black;
+    color: white;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -78,56 +65,8 @@ nav {
 
 .text-box h1 {
     font-size: 60px;
-    padding: 200px;
+    padding: 12px;
 }
-
-/*slideshow display settings*/
-.centered-slideshow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.slideshow-container {
-    position: relative;
-    width: 800px;
-    height: 200px;
-    margin: 0 auto;
-    margin-top: 150px;
-}
-
-.mySlides {
-    display: none;
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto; 
-    max-width: 100%;
-    max-height: 400px;
-}
-
-.prev, .next {
-    position: absolute;
-    top: 90%;
-    transform: translateY(-50%);
-    padding: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    color: black;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-
-/*<-------------------------------------------------- End of Index Page CSS ---------------------------------------------------------------->*/
 
 .hero-btn {
     display: inline-block;
@@ -209,10 +148,10 @@ nav {
 }
 
 .research {
-    width: 100%;
-    margin: 0;
+    width: 80%;
+    margin: auto;
     text-align: left;
-    padding-top: 0px;
+    padding-top: 100px;
 }
 
 .research h1 {
@@ -239,13 +178,11 @@ nav {
     margin: auto;
 }
 
-/*<-------------------------------------------------- Start of People Page CSS ---------------------------------------------------------------->*/
-
 .people {
-    width: 90%;
+    width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
 .people h1 {
@@ -275,7 +212,7 @@ nav {
 }
 
 .people-row {
-    margin-top: 3%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
