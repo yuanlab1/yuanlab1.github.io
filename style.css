@@ -289,68 +289,27 @@ nav {
     box-sizing: border-box;
 }
 
-.people .prof-styled-image {
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 30px;
-    box-shadow: 2px 2px 5px #888;
-}
-
-.people .prof-info {
-    font-size: 16px; 
-    font-weight: 400; 
-    line-height: 24px; 
-    color: #333;  
-}
-
-.people .prof-subtitle {
-    font-size: 18px;
-    font-weight: 600; 
-    line-height: 24px; 
-    color: #333; 
-    padding: 10px 0; 
-}
-
-.people .styled-image {
-    width: 200px;
-    height: auto;
-    margin-top: 30px;
-}
-
-/*<-------------------------------------------------- Start of Publications Page CSS ---------------------------------------------------------------->*/
-
-.publications-list {
-    list-style: none;
-    padding: 0;
-}
-
-.publications-list li {
-    margin: 0 0 20px;
-    border: 1px solid #ddd;
-    padding: 15px;
-    background-color: #fff;
-}
-
-.publications-list li p {
-    margin: 0;
-    font-size: 16px;
-}
-
-.publications-list li strong {
-    font-weight: bold;
-}
-
-.hiring {
+.publications {
     width: 80%;
     margin: auto;
     text-align: left;
     padding-top: 100px;
     margin-bottom: 50px;
 }
-.hiring h1 { 
+
+.publications h1 {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 9px;
+}
+
+.publications li {
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 1px;
+    text-align: left;
+    list-style-position: inside;
 }
