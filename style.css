@@ -106,7 +106,6 @@ nav {
     padding-top: 50px;
     text-align: left;
     width: 80%;
-    overflow:scroll;
 }
 
 .news h1 {
@@ -125,6 +124,9 @@ nav {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    color:rgba(0, 0, 0, 0.75);
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .gallery {
@@ -173,6 +175,7 @@ nav {
     display: table;
     justify-content: center;
     align-items: center;
+    overflow:scroll;
 }
 
 .research {
