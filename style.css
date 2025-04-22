@@ -10,7 +10,8 @@
     /*background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("img/danforth-featured.jpg");*/
     /* background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), gray;
     background-position: center; */
-    background-size: contain;
+    background-size: auto;
+    background-repeat: no-repeat;
     background-image: url('./img/danforth-featured.jpg');
     background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('./img/danforth-featured.jpg');
     position: relative;
