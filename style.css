@@ -11,7 +11,7 @@
     /* background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), gray;
     background-position: center; */
     position: relative;
-    overflow:auto;
+    overflow: auto;
 }
 
 .header-background {
