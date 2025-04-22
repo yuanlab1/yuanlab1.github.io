@@ -12,7 +12,7 @@
     /* background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), gray;
     background-position: center; */
     position: relative;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .header-background {
@@ -77,7 +77,8 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    overflow:auto;
+    height: fit-content;
+    /* overflow:auto; */
 }
 
 .text-box h1 {
@@ -177,7 +178,8 @@ nav {
     display: table;
     justify-content: center;
     align-items: center;
-    overflow:scroll;
+    height:fit-content;
+    /* overflow:scroll; */
 }
 
 .research {
