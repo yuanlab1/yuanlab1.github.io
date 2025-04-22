@@ -106,6 +106,7 @@ nav {
     padding-top: 50px;
     text-align: left;
     width: 80%;
+    overflow:scroll;
 }
 
 .news h1 {
