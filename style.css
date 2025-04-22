@@ -131,6 +131,7 @@ nav {
     text-align: justify;
     text-justify: inter-word;
     height:5vh;
+    width:auto;
 }
 
 .gallery {
@@ -288,9 +289,8 @@ nav {
 }
 
 .styled-image {
-    width: 65%;
-    height: auto;
-
+    width: auto;
+    height: 5vh;
 }
 
 #landing {
