@@ -269,6 +269,12 @@ nav {
     list-style-position: inside;
 }
 
+.styled-image {
+    width: 65%;
+    height: auto;
+    
+}
+
 #landing {
     background-image: url('./img/danforth-featured.jpg');
     /* background-size: cover; */
