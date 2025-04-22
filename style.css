@@ -10,9 +10,9 @@
     /*background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("img/danforth-featured.jpg");*/
     /* background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), gray;
     background-position: center; */
-    background-size: auto;
+    background-size: contain;
     background-image: url('./img/danforth-featured.jpg');
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/danforth-featured.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('./img/danforth-featured.jpg');
     position: relative;
 }
 
