@@ -10,14 +10,23 @@
     /*background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("img/danforth-featured.jpg");*/
     /* background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), gray;
     background-position: center; */
-    background-image: url('./img/danforth-featured.jpg');
-    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('./img/danforth-featured.jpg');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
     position: relative;
     overflow:auto;
+}
+
+.header-background {
+    display: block;
+    background-image: url('./img/danforth-featured.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('./img/danforth-featured.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    min-height: 100vh;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 nav {
@@ -272,7 +281,7 @@ nav {
 .styled-image {
     width: 65%;
     height: auto;
-    
+
 }
 
 #landing {
