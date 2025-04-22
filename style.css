@@ -130,7 +130,7 @@ nav {
     color:rgba(0, 0, 0, 0.75);
     text-align: justify;
     text-justify: inter-word;
-    height:5vh;
+    height:15vh;
     width:auto;
 }
 
@@ -289,8 +289,8 @@ nav {
 }
 
 .styled-image {
-    width: 5vw;
-    height: 5vh;
+    width: 15vw;
+    height: 15vh;
 }
 
 #landing {
