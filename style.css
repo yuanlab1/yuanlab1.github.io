@@ -253,6 +253,6 @@ nav {
 
 #landing {
     background-image: url('./img/danforth-featured.jpg');
-    background-size: cover;
+    /* background-size: cover; */
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/danforth-featured.jpg');
 }
