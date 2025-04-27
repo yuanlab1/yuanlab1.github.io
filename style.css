@@ -215,6 +215,20 @@ nav {
     margin: auto;
 }
 
+.hiring h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hiring p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
 .people {
     width: 80%;
     margin: auto;
