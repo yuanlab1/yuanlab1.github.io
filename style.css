@@ -34,7 +34,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: white;
     z-index: 1000; 
     display: flex;
     padding: 2% 6%;
