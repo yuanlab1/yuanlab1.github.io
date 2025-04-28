@@ -50,7 +50,7 @@ nav {
 }
 
 .nav-links ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font: 13px;
 }
@@ -127,7 +127,7 @@ nav {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    color:rgba(0, 0, 0, 0.75);
+    color:rgba(black);
     text-align: justify;
     text-justify: inter-word;
     height:15vh;
