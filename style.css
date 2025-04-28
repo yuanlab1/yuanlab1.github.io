@@ -44,7 +44,7 @@ nav {
 
 .nav-links {
     flex: 1;
-    text-align: right;
+    text-align: left;
 }
 
 .nav-links ul li {
