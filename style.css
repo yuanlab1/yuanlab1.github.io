@@ -50,7 +50,7 @@ nav {
 }
 
 .nav-links ul li a {
-    color: white;
+    color: rgb(2, 2, 2);
     text-decoration: none;
     font: 13px;
 }
