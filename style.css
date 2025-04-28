@@ -134,55 +134,6 @@ nav {
     width:auto;
 }
 
-.gallery {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: row;
-}
-
-.gallery-row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.gallery-col {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-
-.gallery-col img {
-    width: 80%;
-    padding: 5px;
-    filter: grayscale(100%);
-    transition: 0.2s;
-}
-
-.gallery-col img:hover {
-    filter: grayscale(0%);
-    transform: scale(1.05);
-}
-
-.column {
-    width: 33.33%;
-    padding: 5px;
-}
-
-.row::after {
-    content: '';
-    clear: both;
-    display: table;
-    justify-content: center;
-    align-items: center;
-    height:fit-content;
-    /* overflow:scroll; */
-}
 
 .research {
     width: 80%;
