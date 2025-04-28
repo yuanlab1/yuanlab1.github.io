@@ -143,7 +143,7 @@ nav {
     color:rgba(0, 0, 0, 0.75);
     text-align: justify;
     text-justify: inter-word;
-    height:15vh;
+    height:fit-content;
     width:auto;
 }
 
