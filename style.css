@@ -165,7 +165,12 @@ nav {
     display: block;
     margin: auto;
 }
-
+.hiring {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
 .hiring h1 {
     text-align: center;
     font-size: 36px;
