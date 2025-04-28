@@ -50,7 +50,7 @@ nav {
 }
 
 .nav-links ul li a {
-    color: rgb(2, 2, 2);
+    color: white;
     text-decoration: none;
     font: 13px;
 }
@@ -119,7 +119,7 @@ nav {
 
 .news-item {
     flex-basis: 98%;
-    background-color: rgb(240, 240, 240);
+    background-color: transparent;
     border-radius: 2px;
     margin-bottom: 1%;
     padding: 2px 1.2px;
