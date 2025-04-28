@@ -133,6 +133,10 @@ nav {
     padding: 10px;
 }
 
+.news div {
+    display:block;
+}
+
 .news-item {
     flex-basis: 98%;
     background-color: rgb(240, 240, 240);
