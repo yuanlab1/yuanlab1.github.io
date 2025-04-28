@@ -120,7 +120,7 @@ nav {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
-    display:block
+    display:block;
 }
 
 .news p {
@@ -128,7 +128,7 @@ nav {
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
-    display:block
+    display:block;
     padding: 10px;
 }
 
